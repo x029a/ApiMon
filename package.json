@@ -1,0 +1,16 @@
+{
+  "name": "apihealth",
+  "version": "1.0.0",
+  "description": "Repeatedly checks the status of an API. This program will report whether an API goes down, or it's interface has changed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "0x29a <pipndip.tv@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "babel-register": "^6.24.1",
+    "request": "^2.81.0",
+    "uid": "0.0.2"
+  }
+}
